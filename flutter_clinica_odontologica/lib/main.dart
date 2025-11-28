@@ -13,7 +13,7 @@ class DentalClinicApp extends StatelessWidget {
     return MaterialApp.router(
       title: 'Clínica Odontológica',
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.indigo),
         useMaterial3: true,
       ),
       routerConfig: appRouter,
